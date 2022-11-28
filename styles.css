@@ -232,13 +232,13 @@ nav a{
 		/* (C) TOGGLE SHOW/HIDE MENU */
 		#toggle { display: none; }
 		#menu-toggle input:checked ~ #toggle a { display:block;}
-	}	
+		
 		
 nav ul { display:none; }
 
 #toggle:checked ~ ul { display: block; }
 
-
+}
 
 /*------------main content styles------------*/
 
