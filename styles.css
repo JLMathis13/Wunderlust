@@ -216,12 +216,16 @@ nav a{
 		  box-sizing: border-box;
 		  display: block;
 		  width: 100%;
+          background-color: var(--teal);
 		  border-top: 1px solid #333;
+          padding: 5;
 		}
 		
 		nav ul { display:none; }
 
-		#toggle:checked ~ ul { display: block; }
+		#toggle:checked ~ ul { display: block; 
+		 background-color: var(--black)
+		}
 	   
 		/* (B) SHOW HAMBURGER ICON */
 		#menu-toggle label { 
